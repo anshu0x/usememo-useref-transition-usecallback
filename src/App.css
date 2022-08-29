@@ -1,16 +1,20 @@
-* {
-    box-sizing: border-box;
+
+*{
     margin: 0;
     padding: 0;
-    }
-    .home,
-    .services,
-    .reports,
-    .contact,
-    .events,
-    .support {
-    display: flex;
-    margin-left: 260px;
-    font-size: 2rem;
-    }
-    
+    box-sizing: border-box;
+}
+.banner{
+    width: 100vw;
+    background-color: rgb(15, 189, 131);
+    color: white;
+    padding: 2rem;
+
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+}
